@@ -1,3 +1,4 @@
+
 require("dotenv").config();
 
 var keys = require('./keys.js');
@@ -8,7 +9,7 @@ var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
 // console.log(spotify);
 var fs = require('fs');
-
+console.log(keys.spotify);
 var command = process.argv[2];
 var search = process.argv.splice(3).join(' ');
 
@@ -24,34 +25,39 @@ function start(command, search) {
 
 }
 
-
-
 // console.log(searches);
 
 function spotifySearch(songSearch) {
 
+    
     if (!songSearch) {
         songSearch = 'Stressed Out'
     }
-
+    
     spotify.search({
-        track: 'track',
-        query: songSearch,
-    }), function (err, data) {
-        if (err) {
-            return console.log("Hey there's an error" + err);
-        } else {
-            var results = data.tracks.items[i];
+        type: 'track',
+        query: search,
+        limit: 5
+        }, function (err, data) {
+        
+            if (err) {
+                return console.log("Hey there's an error" + err);
+            } else {
+                var results = data.tracks.items[0];
 
-            data = [
-                'Artist: ' + results.artists[i].name,
-                'Song: ' + results.name
-            ].join('\n\n');
-            console.log(data);
-
+                data = [
+                    'Artist: ' + results.artists[0].name,
+                    'Song: ' + results.name
+                ]
+                console.log('were in' + songSearch);
             
-            
-        } console.log(data);
-    }
+                console.log('please for the love of god' + data);
+            }
+        }
+    )   
 }
 start(command, search);
+// spotify.search({ type: 'track', query: 'All the Small Things' }, function(err, data) {
+//     if (err) {
+//       return console.log('Error occurred: ' + err);
+//     }
