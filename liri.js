@@ -38,7 +38,6 @@ function start(command, search) {
 
 function spotifySearch(search) {
 
-    
     if (!search) {
         search = 'Stressed Out'
     }
@@ -55,18 +54,39 @@ function spotifySearch(search) {
             
             // Can't get it to load more than one song. "items undefined"
             
-            // for (let i = 0; i < 5; i++){
-            var results = data.tracks.items[0];
-            data = [
-                'Song: ' + results.name,
-                'Album: ' + results.album.name,
-                'Artist: ' + results.album.artists[0].name,
-                'Song-Preview: ' + results.preview_url
-            ]
+            // for (let i = 0; i <= 2; i++){
+
+                var results = data.tracks.items[0];
+                
+                if (results.preview_url === null) {
+
+                    dataRevised = [
+                        'Song: ' + results.name,
+                        'Album: ' + results.album.name,
+                        'Artist: ' + results.album.artists[0].name,
+                        'Song-Preview: This artist is too much of a diva to share their work'
+                    ]
+
+                    console.log("--------------------------------------");
+                    console.log()
+                    console.log(dataRevised);
+                    console.log("--------------------------------------");
+
+                } else {
+
+                    data = [
+                        'Song: ' + results.name,
+                        'Album: ' + results.album.name,
+                        'Artist: ' + results.album.artists[0].name,
+                        'Song-Preview: ' + results.preview_url
+                    ]
+            
         
-            console.log("--------------------------------------");    
-            console.log(data);
-            console.log("--------------------------------------");
+                    console.log("--------------------------------------");
+                    console.log(data);
+                    console.log("--------------------------------------");
+
+                }
             // }
             // console.log(data);
         }
@@ -75,6 +95,10 @@ function spotifySearch(search) {
 }
 
 function omdbMovies(search) {
+
+    if (!search) {
+        search = 'Holes'
+    }
 
     var queryUrl = "http://www.omdbapi.com/?t=" + search + "&y=&plot=short&apikey=trilogy";
 
@@ -114,6 +138,9 @@ function omdbMovies(search) {
 }
 
 function bands(search) {
+    if (!search) {
+        search = 'Twenty One Pilots'
+    }
 
     var queryUrl = "https://rest.bandsintown.com/artists/" + search + "/events/?app_id=codingbootcamp";
     axios.get(queryUrl).then(
@@ -121,7 +148,7 @@ function bands(search) {
             
             console.log("--------------------------------------");
             console.log("--------------------------------------");
-            console.log('Next 5 Shows');
+            console.log('Next 5 shows for ' + search);
 
             for (var i = 0; i < 5; i++) {
 
