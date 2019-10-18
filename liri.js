@@ -138,11 +138,13 @@ function omdbMovies(search) {
 }
 
 function bands(search) {
+
     if (!search) {
         search = 'Twenty One Pilots'
     }
 
     var queryUrl = "https://rest.bandsintown.com/artists/" + search + "/events/?app_id=codingbootcamp";
+
     axios.get(queryUrl).then(
         function(response) {
             
@@ -163,9 +165,9 @@ function bands(search) {
 
             }
             
-           
         })
         .catch(function (error) {
+
             if (error.response) {
                 // The request was made and the server responded with a status code
                 // that falls out of the range of 2xx
@@ -179,20 +181,31 @@ function bands(search) {
             
         })
 
-    
 }
 
-// function doWhatItDo(search) {
+function doWhatItDo(search) {
 
+    fs.readFile('.random.txt', 'utf-8', function (err, data) {
 
+        if (err) {
+            return console.log('Something went wrong ~ ' + err);
+        } else {
 
-// }
+            var splitData = data.split(",");
+            search = splitData[1];
+            spotifySearch(search);
+            
+        }
+
+    })
+
+}
     
 start(command, search);
 
 
 // Things To do 
-// 1) doWhatItDO function needs to get set up ** must have
+
 // 2) use the fs to add logged text pages ** must have
 // 3) try to make it look a bit prettier 
 // 4) continue working on the spotify api for more results 
