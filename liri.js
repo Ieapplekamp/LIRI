@@ -122,7 +122,7 @@ function bands(search) {
             console.log("--------------------------------------");
             console.log("--------------------------------------");
             console.log('Next 5 Shows');
-            
+
             for (var i = 0; i < 5; i++) {
 
                 data = [
@@ -162,3 +162,10 @@ function bands(search) {
 // }
     
 start(command, search);
+
+
+// Things To do 
+// 1) doWhatItDO function needs to get set up ** must have
+// 2) use the fs to add logged text pages ** must have
+// 3) try to make it look a bit prettier 
+// 4) continue working on the spotify api for more results 
