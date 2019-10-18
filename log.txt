@@ -1,8 +1,222 @@
 
  ------------------| SPOTIFY |--------------------
 
+ * Song: Stressed Out,
+ * Album: Blurryface,
+ * Artist: Twenty One Pilots,
+ * Song-Preview: https://p.scdn.co/mp3-preview/0e0951b811f06fea9162eb7e95e4bae4802d97af?cid=2b0486564f764dbd81dbb0ee6fb55bed
+
+ ------------------| SPOTIFY |--------------------
+
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Los Angeles, CA,
+ * Venue Name: Hollywood Palladium,
+ * Date: 10/18/19 07:00 PM
+
+ --------------------------------------
+
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Phoenix, AZ,
+ * Venue Name: The Van Buren,
+ * Date: 10/23/19 07:00 PM
+
+ --------------------------------------
+
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Hollywood, CA,
+ * Venue Name: Hollywood Palladium,
+ * Date: 10/20/19 07:30 PM
+
+ --------------------------------------
+
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Hollywood, CA,
+ * Venue Name: Hollywood Palladium,
+ * Date: 10/21/19 07:30 PM
+
+ --------------------------------------
+
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Hollywood, CA,
+ * Venue Name: Hollywood Bowl,
+ * Date: 10/19/19 06:00 PM
+
+ --------------------------------------
+
+ ------------------| SPOTIFY |--------------------
+
+ * Song: I Want It That Way,
+ * Album: The Hits--Chapter One,
+ * Artist: Backstreet Boys,
+ * Song-Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=2b0486564f764dbd81dbb0ee6fb55bed
+
+ ------------------| SPOTIFY |--------------------
+
+ ------------------| MOVIES |--------------------
+
+ * Movie Title: Holes,
+ * Year Released: 18 Apr 2003,
+ * Run Time: 117 min,
+ * IMDB Rating: 7.0,
+ * Rotten Tomatoes Rating: 77%,
+ * Country: USA,
+ * Language(s): English,
+ * Actors: Sigourney Weaver, Jon Voight, Tim Blake Nelson, Shia LaBeouf,
+ * Plot: A wrongfully convicted boy is sent to a brutal desert detention camp where he joins the job of digging holes for some mysterious reason.
+
+ ------------------| MOVIES |--------------------
+
+ ------------------| SPOTIFY |--------------------
+
+ * Song: I Want It That Way,
+ * Album: The Hits--Chapter One,
+ * Artist: Backstreet Boys,
+ * Song-Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=2b0486564f764dbd81dbb0ee6fb55bed
+
+ ------------------| SPOTIFY |--------------------
+
+ ------------------| MOVIES |--------------------
+
+ * Movie Title: Holes,
+ * Year Released: 18 Apr 2003,
+ * Run Time: 117 min,
+ * IMDB Rating: 7.0,
+ * Rotten Tomatoes Rating: 77%,
+ * Country: USA,
+ * Language(s): English,
+ * Actors: Sigourney Weaver, Jon Voight, Tim Blake Nelson, Shia LaBeouf,
+ * Plot: A wrongfully convicted boy is sent to a brutal desert detention camp where he joins the job of digging holes for some mysterious reason.
+
+ ------------------| MOVIES |--------------------
+
+ ------------------| MOVIES |--------------------
+
+ * Movie Title: Holes,
+ * Year Released: 18 Apr 2003,
+ * Run Time: 117 min,
+ * IMDB Rating: 7.0,
+ * Rotten Tomatoes Rating: 77%,
+ * Country: USA,
+ * Language(s): English,
+ * Actors: Sigourney Weaver, Jon Voight, Tim Blake Nelson, Shia LaBeouf,
+ * Plot: A wrongfully convicted boy is sent to a brutal desert detention camp where he joins the job of digging holes for some mysterious reason.
+
+ ------------------| MOVIES |--------------------
+
+ ------------------| MOVIES |--------------------
+
+ * Movie Title: Holes,
+ * Year Released: 18 Apr 2003,
+ * Run Time: 117 min,
+ * IMDB Rating: 7.0,
+ * Rotten Tomatoes Rating: 77%,
+ * Country: USA,
+ * Language(s): English,
+ * Actors: Sigourney Weaver, Jon Voight, Tim Blake Nelson, Shia LaBeouf,
+ * Plot: A wrongfully convicted boy is sent to a brutal desert detention camp where he joins the job of digging holes for some mysterious reason.
+
+ ------------------| MOVIES |--------------------
+
+ ------------------| MOVIES |--------------------
+
+ * Movie Title: Holes,
+ * Year Released: 18 Apr 2003,
+ * Run Time: 117 min,
+ * IMDB Rating: 7.0,
+ * Rotten Tomatoes Rating: 77%,
+ * Country: USA,
+ * Language(s): English,
+ * Actors: Sigourney Weaver, Jon Voight, Tim Blake Nelson, Shia LaBeouf,
+ * Plot: A wrongfully convicted boy is sent to a brutal desert detention camp where he joins the job of digging holes for some mysterious reason.
+
+ ------------------| MOVIES |--------------------
+
+ ------------------| SPOTIFY |--------------------
+
+ * Song: I Want It That Way,
+ * Album: The Hits--Chapter One,
+ * Artist: Backstreet Boys,
+ * Song-Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=2b0486564f764dbd81dbb0ee6fb55bed
+
+ ------------------| SPOTIFY |--------------------
+
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Los Angeles, CA,
+ * Venue Name: Hollywood Palladium,
+ * Date: 10/18/19 07:00 PM
+
+ --------------------------------------
+
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Hollywood, CA,
+ * Venue Name: Hollywood Palladium,
+ * Date: 10/20/19 07:30 PM
+
+ --------------------------------------
+
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Hollywood, CA,
+ * Venue Name: Hollywood Palladium,
+ * Date: 10/21/19 07:30 PM
+
+ --------------------------------------
+
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Phoenix, AZ,
+ * Venue Name: The Van Buren,
+ * Date: 10/23/19 07:00 PM
+
+ --------------------------------------
+
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Hollywood, CA,
+ * Venue Name: Hollywood Bowl,
+ * Date: 10/19/19 06:00 PM
+
+ --------------------------------------
+
+ ------------------| SPOTIFY |--------------------
+
+ * Song: Stressed Out,
+ * Album: Blurryface,
+ * Artist: Twenty One Pilots,
+ * Song-Preview: https://p.scdn.co/mp3-preview/0e0951b811f06fea9162eb7e95e4bae4802d97af?cid=2b0486564f764dbd81dbb0ee6fb55bed
+
+ ------------------| SPOTIFY |--------------------
+
+ ------------------| SPOTIFY |--------------------
+
  * Song: Oh Devil
  * Album: Plural
  * Artist: Electric Guest
  * Song-Preview: This artist is too much of a diva to share their work :(
+
+ ------------------| SPOTIFY |--------------------
+
+ ------------------| SPOTIFY |--------------------
+
+ * Song: Oh Devil
+ * Album: Plural
+ * Artist: Electric Guest
+ * Song-Preview: This artist is too much of a diva to share their work :(
+
+ ------------------| SPOTIFY |--------------------
+
+ ------------------| SPOTIFY |--------------------
+
+ * Song: Oh Devil
+ * Album: Plural
+ * Artist: Electric Guest
+ * Song-Preview: This artist is too much of a diva to share their work :(
+
  ------------------| SPOTIFY |--------------------
