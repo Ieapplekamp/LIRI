@@ -1,0 +1,255 @@
+Invalid DateInvalid DateInvalid DateInvalid DateInvalid Dateundefined
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Hollywood, CA,
+ * Venue Name: Hollywood Bowl,
+ * Date: 10/19/19 06:00 PM
+
+ --------------------------------------
+undefined
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Hollywood, CA,
+ * Venue Name: Hollywood Palladium,
+ * Date: 10/21/19 07:30 PM
+
+ --------------------------------------
+undefined
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Hollywood, CA,
+ * Venue Name: Hollywood Palladium,
+ * Date: 10/20/19 07:30 PM
+
+ --------------------------------------
+undefined
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Phoenix, AZ,
+ * Venue Name: The Van Buren,
+ * Date: 10/23/19 07:00 PM
+
+ --------------------------------------
+undefined
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: San Diego, CA,
+ * Venue Name: Cal Coast Open Air Theater,
+ * Date: 10/24/19 07:00 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:11:11 GMT-0400 (Eastern Daylight Time)
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Hollywood, CA,
+ * Venue Name: Hollywood Bowl,
+ * Date: 10/19/19 06:00 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:11:11 GMT-0400 (Eastern Daylight Time)
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Hollywood, CA,
+ * Venue Name: Hollywood Palladium,
+ * Date: 10/21/19 07:30 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:11:11 GMT-0400 (Eastern Daylight Time)
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Hollywood, CA,
+ * Venue Name: Hollywood Palladium,
+ * Date: 10/20/19 07:30 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:11:11 GMT-0400 (Eastern Daylight Time)
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Phoenix, AZ,
+ * Venue Name: The Van Buren,
+ * Date: 10/23/19 07:00 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:11:11 GMT-0400 (Eastern Daylight Time)
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: San Diego, CA,
+ * Venue Name: Cal Coast Open Air Theater,
+ * Date: 10/24/19 07:00 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:14:36 GMT-0400 (Eastern Daylight Time)
+ ------------------| SPOTIFY |--------------------
+
+ * Song: Lucifer's Eyes,
+ * Album: Heaven EP,
+ * Artist: T.O.L.D.,
+ * Song-Preview: https://p.scdn.co/mp3-preview/5a972c3f5f0f53958b0d2042760a76c8a899ed33?cid=2b0486564f764dbd81dbb0ee6fb55bed
+
+ -------------------------------------------------
+
+Fri Oct 18 2019 23:15:43 GMT-0400 (Eastern Daylight Time)
+ ------------------| TWENTY ONE PILOTS CONCERTS |--------------------
+
+ * Venue Location: Philadelphia, PA,
+ * Venue Name: Wells Fargo Center,
+ * Date: 10/20/19 07:00 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:15:43 GMT-0400 (Eastern Daylight Time)
+ ------------------| TWENTY ONE PILOTS CONCERTS |--------------------
+
+ * Venue Location: Denver, CO,
+ * Venue Name: Pepsi Center,
+ * Date: 10/27/19 07:00 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:15:43 GMT-0400 (Eastern Daylight Time)
+ ------------------| TWENTY ONE PILOTS CONCERTS |--------------------
+
+ * Venue Location: Minneapolis, MN,
+ * Venue Name: Target Center,
+ * Date: 10/24/19 07:00 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:15:43 GMT-0400 (Eastern Daylight Time)
+ ------------------| TWENTY ONE PILOTS CONCERTS |--------------------
+
+ * Venue Location: Des Moines, IA,
+ * Venue Name: Wells Fargo Arena,
+ * Date: 10/25/19 07:00 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:15:43 GMT-0400 (Eastern Daylight Time)
+ ------------------| TWENTY ONE PILOTS CONCERTS |--------------------
+
+ * Venue Location: Cincinnati, OH,
+ * Venue Name: U.S. Bank Arena,
+ * Date: 10/22/19 07:00 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:15:53 GMT-0400 (Eastern Daylight Time)
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Hollywood, CA,
+ * Venue Name: Hollywood Bowl,
+ * Date: 10/19/19 06:00 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:15:53 GMT-0400 (Eastern Daylight Time)
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Hollywood, CA,
+ * Venue Name: Hollywood Palladium,
+ * Date: 10/20/19 07:30 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:15:53 GMT-0400 (Eastern Daylight Time)
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Hollywood, CA,
+ * Venue Name: Hollywood Palladium,
+ * Date: 10/21/19 07:30 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:15:53 GMT-0400 (Eastern Daylight Time)
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: Phoenix, AZ,
+ * Venue Name: The Van Buren,
+ * Date: 10/23/19 07:00 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:15:53 GMT-0400 (Eastern Daylight Time)
+ ------------------| LIZZO CONCERTS |--------------------
+
+ * Venue Location: San Diego, CA,
+ * Venue Name: Cal Coast Open Air Theater,
+ * Date: 10/24/19 07:00 PM
+
+ --------------------------------------
+
+Fri Oct 18 2019 23:16:04 GMT-0400 (Eastern Daylight Time)
+ ------------------| MOVIE |--------------------
+
+ * Movie Title: Holes,
+ * Year Released: 18 Apr 2003,
+ * Run Time: 117 min,
+ * IMDB Rating: 7.0,
+ * Rotten Tomatoes Rating: 77%,
+ * Country: USA,
+ * Language(s): English,
+ * Actors: Sigourney Weaver, Jon Voight, Tim Blake Nelson, Shia LaBeouf,
+ * Plot: A wrongfully convicted boy is sent to a brutal desert detention camp where he joins the job of digging holes for some mysterious reason.
+
+ ------------------------------------------------
+
+Fri Oct 18 2019 23:16:16 GMT-0400 (Eastern Daylight Time)
+ ------------------| MOVIE |--------------------
+
+ * Movie Title: Lucy,
+ * Year Released: 25 Jul 2014,
+ * Run Time: 89 min,
+ * IMDB Rating: 6.4,
+ * Rotten Tomatoes Rating: 67%,
+ * Country: France, Germany, USA, Taiwan,
+ * Language(s): English, Mandarin, French, Italian, German, Spanish, Korean,
+ * Actors: Scarlett Johansson, Morgan Freeman, Min-sik Choi, Amr Waked,
+ * Plot: A woman, accidentally caught in a dark deal, turns the tables on her captors and transforms into a merciless warrior evolved beyond human logic.
+
+ ------------------------------------------------
+
+Fri Oct 18 2019 23:17:12 GMT-0400 (Eastern Daylight Time)
+ ------------------| SPOTIFY |--------------------
+
+ * Song: I Want It That Way,
+ * Album: The Hits--Chapter One,
+ * Artist: Backstreet Boys,
+ * Song-Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=2b0486564f764dbd81dbb0ee6fb55bed
+
+ -------------------------------------------------
+
+Fri Oct 18 2019 23:17:31 GMT-0400 (Eastern Daylight Time)
+ ------------------| SPOTIFY |--------------------
+
+ * Song: I Want It That Way,
+ * Album: The Hits--Chapter One,
+ * Artist: Backstreet Boys,
+ * Song-Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=2b0486564f764dbd81dbb0ee6fb55bed
+
+ -------------------------------------------------
+
+Fri Oct 18 2019 23:18:53 GMT-0400 (Eastern Daylight Time)
+ ------------------| SPOTIFY |--------------------
+
+ * Song: Freedom of Speech,
+ * Album: Revolutionary Vol. 2,
+ * Artist: Immortal Technique,
+ * Song-Preview: https://p.scdn.co/mp3-preview/98ad938005a9cdee1b65d14cd91b6c07576220fa?cid=2b0486564f764dbd81dbb0ee6fb55bed
+
+ -------------------------------------------------
+
+Fri Oct 18 2019 23:19:20 GMT-0400 (Eastern Daylight Time)
+ ------------------| SPOTIFY |--------------------
+
+ * Song: Freedom of Speech,
+ * Album: Revolutionary Vol. 2,
+ * Artist: Immortal Technique,
+ * Song-Preview: https://p.scdn.co/mp3-preview/98ad938005a9cdee1b65d14cd91b6c07576220fa?cid=2b0486564f764dbd81dbb0ee6fb55bed
+
+ -------------------------------------------------

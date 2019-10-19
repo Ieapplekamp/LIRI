@@ -52,7 +52,7 @@ function start(command, search) {
 function spotifySearch(search) {
 
     if (!search) {
-        search = 'Stressed Out'
+        search = 'Ask for Love'
     }
     
     spotify.search({
@@ -73,7 +73,7 @@ function spotifySearch(search) {
             if (results.preview_url === null) {
 
                 dataRevisedColor = [
-                    white("\n ------------------| SPOTIFY |--------------------\n") + "\r\n" +
+                    white("\n ------------------| SPOTIFY |--------------------") + "\r\n" +
                     blue('* Song: ') + pink(results.name) +  
                     blue('\n * Album: ') + pink(results.album.name) + 
                     blue('\n * Artist: ') + pink(results.album.artists[0].name) + 
@@ -82,12 +82,13 @@ function spotifySearch(search) {
                 ]
 
                 dataRevised = [
+                    "\n" + moment().toDate() + 
                     "\n ------------------| SPOTIFY |--------------------\n" + 
                     '\n * Song: ' + results.name +
                     '\n * Album: ' + results.album.name + 
                     '\n * Artist: ' + results.album.artists[0].name + 
                     '\n * Song-Preview: This artist is too much of a diva to share their work :(' + "\r\n" + 
-                    "\n ------------------| SPOTIFY |--------------------\n"
+                    "\n -------------------------------------------------\n"
                 ]
 
                 console.log(wrapAnsi(dataRevisedColor));
@@ -103,7 +104,7 @@ function spotifySearch(search) {
             } else {
 
                 dataColor = [
-                    white("\n ------------------| SPOTIFY |--------------------\n") + "\r\n" +
+                    white("\n ------------------| SPOTIFY |--------------------") + "\r\n" +
                     blue('\n * Song: ') + pink(results.name) +
                     blue('\n * Album: ') + pink(results.album.name) +
                     blue('\n * Artist: ') + pink(results.album.artists[0].name) +
@@ -112,12 +113,13 @@ function spotifySearch(search) {
                 ]
 
                 data = [
+                    "\n" + moment().toDate() + 
                     "\n ------------------| SPOTIFY |--------------------\n" + 
                     '\n * Song: ' + results.name,
                     '\n * Album: ' + results.album.name,
                     '\n * Artist: ' + results.album.artists[0].name,
                     '\n * Song-Preview: ' + results.preview_url + "\r\n" + 
-                    "\n ------------------| SPOTIFY |--------------------\n"
+                    "\n -------------------------------------------------\n"
                 ]
         
                 console.log(wrapAnsi(dataColor));
@@ -143,7 +145,7 @@ function spotifySearch(search) {
 function omdbMovies(search) {
 
     if (!search) {
-        search = 'Holes'
+        search = "Howl's Moving Castle"
     }
 
     var queryUrl = "http://www.omdbapi.com/?t=" + search + "&y=&plot=short&apikey=trilogy";
@@ -152,7 +154,7 @@ function omdbMovies(search) {
         function (response) {
 
             dataColor = [
-                white("\n ------------------| MOVIE |--------------------\n") + 
+                white("\n ------------------| MOVIE |--------------------") + 
                 blue('\n * Movie Title: ') + pink(response.data.Title) + 
                 blue('\n * Year Released: ') + pink(response.data.Released) + 
                 blue('\n * Run Time: ') + pink(response.data.Runtime) + 
@@ -166,6 +168,7 @@ function omdbMovies(search) {
             ]
             
             data = [
+                "\n" + moment().toDate() + 
                 "\n ------------------| MOVIE |--------------------\n" + 
                 '\n * Movie Title: ' + response.data.Title,
                 '\n * Year Released: ' + response.data.Released,
@@ -176,7 +179,7 @@ function omdbMovies(search) {
                 '\n * Language(s): ' + response.data.Language,
                 '\n * Actors: ' + response.data.Actors,
                 '\n * Plot: ' + response.data.Plot + "\r\n" + 
-                "\n ------------------| MOVIE |--------------------\n"
+                "\n ------------------------------------------------\n"
             ]
 
             console.log(wrapAnsi(dataColor));
@@ -209,7 +212,7 @@ function omdbMovies(search) {
 function bands(search) {
 
     if (!search) {
-        search = 'Twenty One Pilots'
+        search = 'Ari Lennox'
     }
 
     var queryUrl = "https://rest.bandsintown.com/artists/" + search + "/events/?app_id=codingbootcamp";
@@ -220,10 +223,11 @@ function bands(search) {
             console.log("\r\n");
             console.log(chalk.bold.white.underline('Next 5 shows for ' + search + ':'));
 
-            if (response.artists === undefined) {
-                console.log("\r\n");
-                console.log(chalk.italic.inverse.white("Sorry, I cannot find any concerts for this artist right now") + "\r\n");
-            }
+            
+            // if (response.data[i].venue.name === undefined) {
+            //     console.log("\r\n");
+            //     console.log(chalk.italic.inverse.white("Sorry, I cannot find any concerts for this artist right now") + "\r\n");
+            // }
             
             for (var i = 0; i < 5; i++) {
 
@@ -232,10 +236,11 @@ function bands(search) {
                     blue('\n * Venue Location: ') + pink(response.data[i].venue.city) + ', ' + pink(response.data[i].venue.region) +
                     blue('\n * Venue Name: ') + pink(response.data[i].venue.name) +
                     blue('\n * Date: ') + pink(moment(response.data[i].datetime).format('MM/DD/YY hh:mm A')) + "\r\n" + 
-                    white("\n --------------------------------------")
+                    chalk.white.dim("\n --------------------------------------")
                 ]
 
                 data = [
+                    "\n" + moment().toDate() + 
                     "\n ------------------| " + search.toUpperCase() + " CONCERTS |--------------------\n" +
                     '\n * Venue Location: ' + response.data[i].venue.city + ', ' + response.data[i].venue.region,
                     '\n * Venue Name: ' + response.data[i].venue.name,
@@ -251,9 +256,9 @@ function bands(search) {
                     return console.log('Something went wrong ~ ' + err);
                     } 
 
-                });
+                }); 
 
-            }
+            } console.log('\n');
             
         })
         .catch(function (error) {
