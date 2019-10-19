@@ -16,8 +16,8 @@ var search = process.argv.splice(3).join(' ');
 // Chalk console.log's colors 
 const chalk = require('chalk');
 var white = chalk.hex('#ffffff');
-var blue = chalk.hex('#7FE5F0');
-var pink = chalk.hex('#db245e');
+var blue = chalk.hex('#ff57ab'); // Actually Pink
+var pink = chalk.hex('#7FE5F0'); // Roles reversed
 // wrapAnsi formats logs
 const wrapAnsi = require('wrap-ansi');
 
@@ -44,7 +44,6 @@ function start(command, search) {
 
             doWhatItDo(search);
             break;
-        
     }
 
 }
@@ -63,11 +62,10 @@ function spotifySearch(search) {
     }, function (err, data) {
             
         if (err) {
-            return console.log("Hey there's an error" + err);
+            return console.log('Something went wrong ~ ' + err);
         } else {
             
             // Can't get it to load more than one song. "items undefined"
-            
             // for (var i = 0; i < 5; i++){
 
             var results = data.tracks.items[0];
@@ -80,7 +78,7 @@ function spotifySearch(search) {
                     blue('\n * Album: ') + pink(results.album.name) + 
                     blue('\n * Artist: ') + pink(results.album.artists[0].name) + 
                     blue('\n * Song-Preview: ') +  pink('This artist is too much of a diva to share their work :(') + "\r\n" + 
-                    white("\n ------------------| SPOTIFY |--------------------\n")
+                    chalk.white.dim("\n ------------------| SPOTIFY |--------------------\n")
                 ]
 
                 dataRevised = [
@@ -97,7 +95,7 @@ function spotifySearch(search) {
                 fs.appendFile('log.txt', dataRevised, function (err) {
                     
                     if (err) {
-                        return console.log(err);
+                        return console.log('Something went wrong ~ ' + err);
                     } 
 
                 });
@@ -110,7 +108,7 @@ function spotifySearch(search) {
                     blue('\n * Album: ') + pink(results.album.name) +
                     blue('\n * Artist: ') + pink(results.album.artists[0].name) +
                     blue('\n * Song-Preview: ') + '\n' + pink(results.preview_url) + "\r\n" +
-                    white("\n ------------------| SPOTIFY |--------------------\n")
+                    chalk.white.dim("\n ------------------| SPOTIFY |--------------------\n")
                 ]
 
                 data = [
@@ -127,7 +125,7 @@ function spotifySearch(search) {
                 fs.appendFile('log.txt', data, function (err) {
                 
                     if (err) {
-                    return console.log(err);
+                    return console.log('Something went wrong ~ ' + err);
                     } 
 
                 });
@@ -154,7 +152,7 @@ function omdbMovies(search) {
         function (response) {
 
             dataColor = [
-                white("\n ------------------| MOVIES |--------------------\n") + 
+                white("\n ------------------| MOVIE |--------------------\n") + 
                 blue('\n * Movie Title: ') + pink(response.data.Title) + 
                 blue('\n * Year Released: ') + pink(response.data.Released) + 
                 blue('\n * Run Time: ') + pink(response.data.Runtime) + 
@@ -164,11 +162,11 @@ function omdbMovies(search) {
                 blue('\n * Language(s): ') + pink(response.data.Language) + 
                 blue('\n * Actors: ') + pink(response.data.Actors) + 
                 blue('\n * Plot: ') + pink(response.data.Plot) + "\r\n" +
-                white("\n ------------------| MOVIES |--------------------\n")
+                chalk.white.dim("\n ------------------| MOVIE |--------------------\n")
             ]
             
             data = [
-                "\n ------------------| MOVIES |--------------------\n" + 
+                "\n ------------------| MOVIE |--------------------\n" + 
                 '\n * Movie Title: ' + response.data.Title,
                 '\n * Year Released: ' + response.data.Released,
                 '\n * Run Time: ' + response.data.Runtime,
@@ -178,7 +176,7 @@ function omdbMovies(search) {
                 '\n * Language(s): ' + response.data.Language,
                 '\n * Actors: ' + response.data.Actors,
                 '\n * Plot: ' + response.data.Plot + "\r\n" + 
-                "\n ------------------| MOVIES |--------------------\n"
+                "\n ------------------| MOVIE |--------------------\n"
             ]
 
             console.log(wrapAnsi(dataColor));
@@ -186,7 +184,7 @@ function omdbMovies(search) {
             fs.appendFile('log.txt', data, function (err) {
             
                 if (err) {
-                return console.log(err);
+                return console.log('Something went wrong ~ ' + err);
                 } 
     
             });
@@ -222,6 +220,11 @@ function bands(search) {
             console.log("\r\n");
             console.log(chalk.bold.white.underline('Next 5 shows for ' + search + ':'));
 
+            if (response.artists === undefined) {
+                console.log("\r\n");
+                console.log(chalk.italic.inverse.white("Sorry, I cannot find any concerts for this artist right now") + "\r\n");
+            }
+            
             for (var i = 0; i < 5; i++) {
 
                 dataColor = [
@@ -245,7 +248,7 @@ function bands(search) {
                 fs.appendFile('log.txt', data, function (err) {
                     
                     if (err) {
-                    return console.log(err);
+                    return console.log('Something went wrong ~ ' + err);
                     } 
 
                 });
