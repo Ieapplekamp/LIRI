@@ -223,11 +223,10 @@ function bands(search) {
             console.log("\r\n");
             console.log(chalk.bold.white.underline('Next 5 shows for ' + search + ':'));
 
-            
-            // if (response.data[i].venue.name === undefined) {
-            //     console.log("\r\n");
-            //     console.log(chalk.italic.inverse.white("Sorry, I cannot find any concerts for this artist right now") + "\r\n");
-            // }
+            if (response.data.length === 0) {
+                console.log("\r\n");
+                console.log(chalk.italic.inverse.white("Sorry, I cannot find any concerts for this artist right now") + "\r\n");
+            }
             
             for (var i = 0; i < 5; i++) {
 
