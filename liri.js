@@ -60,81 +60,81 @@ function spotifySearch(search) {
         query: search,
         limit: 5
     }, function (err, data) {
-            
+
+        
         if (err) {
             return console.log('Something went wrong ~ ' + err);
         } else {
+            // console.log(data.tracks.items[1],'items')
             
-            // Can't get it to load more than one song. "items undefined"
-            // for (var i = 0; i < 5; i++){
+            for (var i = 0; i < 5; i++){
+                var results = data.tracks.items[i];
+                // console.log(results, 'res');
+                if (results.preview_url === null) {
 
-            var results = data.tracks.items[0];
+                    dataRevisedColor = [
+                        white("\n ------------------| SPOTIFY |--------------------") + "\r\n" +
+                        blue('* Song: ') + pink(results.name) +  
+                        blue('\n * Album: ') + pink(results.album.name) + 
+                        blue('\n * Artist: ') + pink(results.album.artists[i].name) + 
+                        blue('\n * Song-Preview: ') +  pink('This artist is too much of a diva to share their work :(') + "\r\n" + 
+                        chalk.white.dim("\n ------------------| SPOTIFY |--------------------\n")
+                    ]
+
+                    dataRevised = [
+                        "\n" + moment().toDate() + 
+                        "\n ------------------| SPOTIFY |--------------------\n" + 
+                        '\n * Song: ' + results.name +
+                        '\n * Album: ' + results.album.name + 
+                        '\n * Artist: ' + results.album.artists[i].name + 
+                        '\n * Song-Preview: This artist is too much of a diva to share their work :(' + "\r\n" + 
+                        "\n -------------------------------------------------\n"
+                    ]
+
+                    console.log(wrapAnsi(dataRevisedColor));
+
+                    fs.appendFile('log.txt', dataRevised, function (err) {
+                        
+                        if (err) {
+                            return console.log('Something went wrong ~ ' + err);
+                        } 
+
+                    });
+
+                } else {
+
+                    dataColor = [
+                        white("\n ------------------| SPOTIFY |--------------------") + "\r\n" +
+                        blue('\n * Song: ') + pink(results.name || 'NO DATA') +
+                        blue('\n * Album: ') + pink(results.album.name || '') +
+                        blue('\n * Artist: ') + pink(results.album.artists[0].name || '') +
+                        blue('\n * Song-Preview: ') + '\n' + pink(results.preview_url || '') + "\r\n" +
+                        chalk.white.dim("\n ------------------| SPOTIFY |--------------------\n")
+                    ]
+
+                    dataNew = [
+                        "\n" + moment().toDate() + 
+                        "\n ------------------| SPOTIFY |--------------------\n" + 
+                        '\n * Song: ' + results.name  || 'NO DATA',
+                        '\n * Album: ' + results.album.name || 'NO DATA',
+                        '\n * Artist: ' + results.album.artists[0].name || 'NO DATA',
+                        '\n * Song-Preview: ' + results.preview_url || 'NO DATA' + "\r\n" + 
+                        "\n -------------------------------------------------\n"
+                    ]
             
-            if (results.preview_url === null) {
+                    console.log(wrapAnsi(dataColor));
 
-                dataRevisedColor = [
-                    white("\n ------------------| SPOTIFY |--------------------") + "\r\n" +
-                    blue('* Song: ') + pink(results.name) +  
-                    blue('\n * Album: ') + pink(results.album.name) + 
-                    blue('\n * Artist: ') + pink(results.album.artists[0].name) + 
-                    blue('\n * Song-Preview: ') +  pink('This artist is too much of a diva to share their work :(') + "\r\n" + 
-                    chalk.white.dim("\n ------------------| SPOTIFY |--------------------\n")
-                ]
-
-                dataRevised = [
-                    "\n" + moment().toDate() + 
-                    "\n ------------------| SPOTIFY |--------------------\n" + 
-                    '\n * Song: ' + results.name +
-                    '\n * Album: ' + results.album.name + 
-                    '\n * Artist: ' + results.album.artists[0].name + 
-                    '\n * Song-Preview: This artist is too much of a diva to share their work :(' + "\r\n" + 
-                    "\n -------------------------------------------------\n"
-                ]
-
-                console.log(wrapAnsi(dataRevisedColor));
-
-                fs.appendFile('log.txt', dataRevised, function (err) {
+                    fs.appendFile('log.txt', dataNew, function (err) {
                     
-                    if (err) {
+                        if (err) {
                         return console.log('Something went wrong ~ ' + err);
-                    } 
+                        } 
 
-                });
+                    });
 
-            } else {
-
-                dataColor = [
-                    white("\n ------------------| SPOTIFY |--------------------") + "\r\n" +
-                    blue('\n * Song: ') + pink(results.name) +
-                    blue('\n * Album: ') + pink(results.album.name) +
-                    blue('\n * Artist: ') + pink(results.album.artists[0].name) +
-                    blue('\n * Song-Preview: ') + '\n' + pink(results.preview_url) + "\r\n" +
-                    chalk.white.dim("\n ------------------| SPOTIFY |--------------------\n")
-                ]
-
-                data = [
-                    "\n" + moment().toDate() + 
-                    "\n ------------------| SPOTIFY |--------------------\n" + 
-                    '\n * Song: ' + results.name,
-                    '\n * Album: ' + results.album.name,
-                    '\n * Artist: ' + results.album.artists[0].name,
-                    '\n * Song-Preview: ' + results.preview_url + "\r\n" + 
-                    "\n -------------------------------------------------\n"
-                ]
-        
-                console.log(wrapAnsi(dataColor));
-
-                fs.appendFile('log.txt', data, function (err) {
-                
-                    if (err) {
-                    return console.log('Something went wrong ~ ' + err);
-                    } 
-
-                });
-
-            }
+                }
             
-            // }
+            }
         
         }
             
