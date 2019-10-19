@@ -72,7 +72,7 @@ function spotifySearch(search) {
                 // console.log(results, 'res');
                 if (results.preview_url === null) {
 
-                    dataRevisedColor = [
+                    var dataRevisedColor = [
                         white("\n ------------------| SPOTIFY |--------------------") + "\r\n" +
                         blue('* Song: ') + pink(results.name) +  
                         blue('\n * Album: ') + pink(results.album.name) + 
@@ -81,7 +81,7 @@ function spotifySearch(search) {
                         chalk.white.dim("\n ------------------| SPOTIFY |--------------------\n")
                     ]
 
-                    dataRevised = [
+                    var dataRevised = [
                         "\n" + moment().toDate() + 
                         "\n ------------------| SPOTIFY |--------------------\n" + 
                         '\n * Song: ' + results.name +
@@ -103,7 +103,7 @@ function spotifySearch(search) {
 
                 } else {
 
-                    dataColor = [
+                    var dataColor = [
                         white("\n ------------------| SPOTIFY |--------------------") + "\r\n" +
                         blue('\n * Song: ') + pink(results.name || 'NO DATA') +
                         blue('\n * Album: ') + pink(results.album.name || '') +
@@ -112,7 +112,7 @@ function spotifySearch(search) {
                         chalk.white.dim("\n ------------------| SPOTIFY |--------------------\n")
                     ]
 
-                    dataNew = [
+                    var dataNew = [
                         "\n" + moment().toDate() + 
                         "\n ------------------| SPOTIFY |--------------------\n" + 
                         '\n * Song: ' + results.name  || 'NO DATA',
@@ -153,7 +153,7 @@ function omdbMovies(search) {
     axios.get(queryUrl).then(
         function (response) {
 
-            dataColor = [
+            var dataColor = [
                 white("\n ------------------| MOVIE |--------------------") + 
                 blue('\n * Movie Title: ') + pink(response.data.Title) + 
                 blue('\n * Year Released: ') + pink(response.data.Released) + 
@@ -167,7 +167,7 @@ function omdbMovies(search) {
                 chalk.white.dim("\n ------------------| MOVIE |--------------------\n")
             ]
             
-            data = [
+            var data = [
                 "\n" + moment().toDate() + 
                 "\n ------------------| MOVIE |--------------------\n" + 
                 '\n * Movie Title: ' + response.data.Title,
@@ -230,7 +230,7 @@ function bands(search) {
             
             for (var i = 0; i < 5; i++) {
 
-                dataColor = [
+                var dataColor = [
                     white("\n ------------------| " + search.toUpperCase() + " CONCERTS |--------------------\n") +
                     blue('\n * Venue Location: ') + pink(response.data[i].venue.city) + ', ' + pink(response.data[i].venue.region) +
                     blue('\n * Venue Name: ') + pink(response.data[i].venue.name) +
@@ -238,7 +238,7 @@ function bands(search) {
                     chalk.white.dim("\n --------------------------------------")
                 ]
 
-                data = [
+                var data = [
                     "\n" + moment().toDate() + 
                     "\n ------------------| " + search.toUpperCase() + " CONCERTS |--------------------\n" +
                     '\n * Venue Location: ' + response.data[i].venue.city + ', ' + response.data[i].venue.region,
