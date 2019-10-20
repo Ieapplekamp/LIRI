@@ -20,7 +20,7 @@ LIRI is a node.js application that searches Spotify, OMDB, and the Bands in Town
 node liri.js spotify-this-song <Song Name>
 ```
 
-Renders the first 5 results related to the song searched from the Spotify API using the ```node-spotify-api``` npm; Artists names can usually be included. Each result should return the name of the song, album, artist, and a link to preview the song will be provided, if there is one.
+Renders the first 5 results related to the song searched from the Spotify API using the ```node-spotify-api``` npm. Artists names can usually be included. Each result should return the name of the song, album, artist, and a link to preview the song will be provided, if there is one.
 
 ![Spotify Default](https://media.giphy.com/media/d9NqL931hX0Orh8OTP/giphy.gif)
 
@@ -42,14 +42,14 @@ Returns all the meta data about the movie searched through the OMDB API, if not 
 node liri.js concert-this <Artist>
 ```
 
-Renders the next 5 concerts or shows for the _Artist_ searched, along with the venue, location, and time of the performance. If not artist is specified, Ari Lennox will be chosen for you. _highly recommended_
+Renders the next 5 concerts or shows for the _Artist_ searched, along with the venue, location, and time of the performance. If not artist is specified, Ari Lennox will be chosen for you. _Highly Recommended_
 
 ![Concerts Default](https://media.giphy.com/media/UQIdAfitHDfO3k7jlE/giphy.gif)
 
 
 ## spotify log text
 
-ALL successful commands will be appended to the log.txt file for user reciepts of command results; Files will also include a time stamp. 
+ALL successful commands will be appended to the log.txt file for user reciepts of command results. Files will also include a time stamp. 
 
 ![Spotify Log](https://media.giphy.com/media/SUDyYhYyFWiV9fflqr/giphy.gif) ![Concerts Log](https://media.giphy.com/media/LPThjetG2P85JQ98R5/giphy.gif) ![Moive and DoWhatItDo](https://media.giphy.com/media/ZecJ0Z1JWnv6Jmu7Ij/giphy.gif)
 
@@ -60,7 +60,8 @@ ALL successful commands will be appended to the log.txt file for user reciepts o
 2. Create an account or login with an existing account. (Premium Not Required)
 3. Once you login, you should see an option to create a new application, create it.
 4. The next screen, copy the client id AND client secret.
-5. In the liri folder create a file named '.env' and format it like this: SPOTIFY_ID=client-ID-here SPOTIFY_SECRET=secret-ID-here
+5. In the liri folder create a file called '.env' and copy: SPOTIFY_ID=client-key SPOTIFY_SECRET=secret-key
+6. Replace _client-key_ and _secret-key_ with your spotify keys! (Do not use with closing parameters with keys)
 6. Save and run the ```spotify-this-song``` command.
 
 
