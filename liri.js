@@ -65,11 +65,11 @@ function spotifySearch(search) {
         if (err) {
             return console.log('Something went wrong ~ ' + err);
         } else {
-            // console.log(data.tracks.items[1],'items')
             
             for (var i = 0; i < 5; i++){
+
                 var results = data.tracks.items[i];
-                // console.log(results, 'res');
+                
                 if (results.preview_url === null) {
 
                     var dataRevisedColor = [
@@ -77,7 +77,7 @@ function spotifySearch(search) {
                         blue('* Song: ') + pink(results.name) +  
                         blue('\n * Album: ') + pink(results.album.name) + 
                         blue('\n * Artist: ') + pink(results.album.artists[i].name) + 
-                        blue('\n * Song-Preview: ') +  pink('This artist is too much of a diva to share their work :(') + "\r\n" + 
+                        blue('\n * Song-Preview: ') +  pink('Cannot display a prievew at this moment') + "\r\n" + 
                         chalk.white.dim("\n ------------------| SPOTIFY |--------------------\n")
                     ]
 
@@ -87,7 +87,7 @@ function spotifySearch(search) {
                         '\n * Song: ' + results.name +
                         '\n * Album: ' + results.album.name + 
                         '\n * Artist: ' + results.album.artists[i].name + 
-                        '\n * Song-Preview: This artist is too much of a diva to share their work :(' + "\r\n" + 
+                        '\n * Song-Preview: Cannot display a preview at this moment' + "\r\n" + 
                         "\n -------------------------------------------------\n"
                     ]
 
@@ -105,20 +105,20 @@ function spotifySearch(search) {
 
                     var dataColor = [
                         white("\n ------------------| SPOTIFY |--------------------") + "\r\n" +
-                        blue('\n * Song: ') + pink(results.name || 'NO DATA') +
-                        blue('\n * Album: ') + pink(results.album.name || '') +
-                        blue('\n * Artist: ') + pink(results.album.artists[0].name || '') +
-                        blue('\n * Song-Preview: ') + '\n' + pink(results.preview_url || '') + "\r\n" +
+                        blue('\n * Song: ') + pink(results.name) +
+                        blue('\n * Album: ') + pink(results.album.name) +
+                        blue('\n * Artist: ') + pink(results.album.artists[0].name) +
+                        blue('\n * Song-Preview: ') + '\n' + pink(results.preview_url) + "\r\n" +
                         chalk.white.dim("\n ------------------| SPOTIFY |--------------------\n")
                     ]
 
                     var dataNew = [
                         "\n" + moment().toDate() + 
                         "\n ------------------| SPOTIFY |--------------------\n" + 
-                        '\n * Song: ' + results.name  || 'NO DATA',
-                        '\n * Album: ' + results.album.name || 'NO DATA',
-                        '\n * Artist: ' + results.album.artists[0].name || 'NO DATA',
-                        '\n * Song-Preview: ' + results.preview_url || 'NO DATA' + "\r\n" + 
+                        '\n * Song: ' + results.name,
+                        '\n * Album: ' + results.album.name,
+                        '\n * Artist: ' + results.album.artists[0].name,
+                        '\n * Song-Preview: ' + results.preview_url + "\r\n" + 
                         "\n -------------------------------------------------\n"
                     ]
             
