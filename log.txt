@@ -1,227 +1,142 @@
 -------| Logged User Commands, Feel Free To Delete|-------
 
-Sat Oct 19 2019 13:09:33 GMT-0400 (Eastern Daylight Time)
- ------------------| MOVIE |--------------------
-
- * Movie Title: Howl's Moving Castle,
- * Year Released: 17 Jun 2005,
- * Run Time: 119 min,
- * IMDB Rating: 8.2,
- * Rotten Tomatoes Rating: 87%,
- * Country: Japan,
- * Language(s): Japanese,
- * Actors: Chieko Baishô, Takuya Kimura, Akihiro Miwa, Tatsuya Gashûin,
- * Plot: When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.
-
- ------------------------------------------------
-
-Sat Oct 19 2019 13:09:39 GMT-0400 (Eastern Daylight Time)
- ------------------| MOVIE |--------------------
-
- * Movie Title: Holes,
- * Year Released: 18 Apr 2003,
- * Run Time: 117 min,
- * IMDB Rating: 7.0,
- * Rotten Tomatoes Rating: 77%,
- * Country: USA,
- * Language(s): English,
- * Actors: Sigourney Weaver, Jon Voight, Tim Blake Nelson, Shia LaBeouf,
- * Plot: A wrongfully convicted boy is sent to a brutal desert detention camp where he joins the job of digging holes for some mysterious reason.
-
- ------------------------------------------------
-
-Sat Oct 19 2019 13:09:48 GMT-0400 (Eastern Daylight Time)
- ------------------| ARI LENNOX CONCERTS |--------------------
-
- * Venue Location: Hollywood, CA,
- * Venue Name: Hollywood Palladium,
- * Date: 10/20/19 07:30 PM
-
- --------------------------------------
-
-Sat Oct 19 2019 13:09:48 GMT-0400 (Eastern Daylight Time)
- ------------------| ARI LENNOX CONCERTS |--------------------
-
- * Venue Location: Hollywood, CA,
- * Venue Name: Hollywood Palladium,
- * Date: 10/21/19 07:30 PM
-
- --------------------------------------
-
-Sat Oct 19 2019 13:09:48 GMT-0400 (Eastern Daylight Time)
- ------------------| ARI LENNOX CONCERTS |--------------------
-
- * Venue Location: Phoenix, AZ,
- * Venue Name: The Van Buren,
- * Date: 10/23/19 08:00 PM
-
- --------------------------------------
-
-Sat Oct 19 2019 13:09:48 GMT-0400 (Eastern Daylight Time)
- ------------------| ARI LENNOX CONCERTS |--------------------
-
- * Venue Location: Las Vegas, NV,
- * Venue Name: The Chelsea,
- * Date: 10/25/19 08:00 PM
-
- --------------------------------------
-
-Sat Oct 19 2019 13:09:48 GMT-0400 (Eastern Daylight Time)
- ------------------| ARI LENNOX CONCERTS |--------------------
-
- * Venue Location: San Antonio, TX,
- * Venue Name: Mala Luna Music Festival,
- * Date: 10/27/19 12:00 PM
-
- --------------------------------------
-
-Sat Oct 19 2019 13:09:53 GMT-0400 (Eastern Daylight Time)
- ------------------| LIZZO CONCERTS |--------------------
-
- * Venue Location: Hollywood, CA,
- * Venue Name: Hollywood Bowl,
- * Date: 10/19/19 06:00 PM
-
- --------------------------------------
-
-Sat Oct 19 2019 13:09:53 GMT-0400 (Eastern Daylight Time)
- ------------------| LIZZO CONCERTS |--------------------
-
- * Venue Location: Hollywood, CA,
- * Venue Name: Hollywood Palladium,
- * Date: 10/20/19 07:30 PM
-
- --------------------------------------
-
-Sat Oct 19 2019 13:09:53 GMT-0400 (Eastern Daylight Time)
- ------------------| LIZZO CONCERTS |--------------------
-
- * Venue Location: Hollywood, CA,
- * Venue Name: Hollywood Palladium,
- * Date: 10/21/19 07:30 PM
-
- --------------------------------------
-
-Sat Oct 19 2019 13:09:53 GMT-0400 (Eastern Daylight Time)
- ------------------| LIZZO CONCERTS |--------------------
-
- * Venue Location: Phoenix, AZ,
- * Venue Name: The Van Buren,
- * Date: 10/23/19 07:00 PM
-
- --------------------------------------
-
-Sat Oct 19 2019 13:09:53 GMT-0400 (Eastern Daylight Time)
- ------------------| LIZZO CONCERTS |--------------------
-
- * Venue Location: San Diego, CA,
- * Venue Name: Cal Coast Open Air Theater,
- * Date: 10/24/19 07:00 PM
-
- --------------------------------------
-
-Sat Oct 19 2019 13:10:08 GMT-0400 (Eastern Daylight Time)
- ------------------| SPOTIFY |--------------------
-
- * Song: Freedom of Speech,
- * Album: Revolutionary Vol. 2,
- * Artist: Immortal Technique,
- * Song-Preview: https://p.scdn.co/mp3-preview/98ad938005a9cdee1b65d14cd91b6c07576220fa?cid=2b0486564f764dbd81dbb0ee6fb55bed
-Sat Oct 19 2019 13:10:08 GMT-0400 (Eastern Daylight Time)
- ------------------| SPOTIFY |--------------------
-
- * Song: Freedom of Speech,
- * Album: Freedom of Speech,
- * Artist: Akira The Don,
- * Song-Preview: https://p.scdn.co/mp3-preview/3dd9a3859da2d9a7fc2d3548552bb1641d28b6a5?cid=2b0486564f764dbd81dbb0ee6fb55bed
-Sat Oct 19 2019 13:10:08 GMT-0400 (Eastern Daylight Time)
- ------------------| SPOTIFY |--------------------
-
- * Song: Freedom of Speech,
- * Album: Freedom of Niquer,
- * Artist: Drauf & Dran,
- * Song-Preview: https://p.scdn.co/mp3-preview/5fe01b1f1b67bedc92a6dd6b725abf12c3bc8215?cid=2b0486564f764dbd81dbb0ee6fb55bed
-Sat Oct 19 2019 13:10:08 GMT-0400 (Eastern Daylight Time)
- ------------------| SPOTIFY |--------------------
-
- * Song: Freedom Of Speech,
- * Album: Liquid Tension Experiment,
- * Artist: Liquid Tension Experiment,
- * Song-Preview: https://p.scdn.co/mp3-preview/d255870a9d75a3a16b363269d87cce251c337c33?cid=2b0486564f764dbd81dbb0ee6fb55bed
-Sat Oct 19 2019 13:10:08 GMT-0400 (Eastern Daylight Time)
- ------------------| SPOTIFY |--------------------
-
- * Song: Winter Breeze,
- * Album: Freedom of Speech,
- * Artist: SPEECHLESS,
- * Song-Preview: https://p.scdn.co/mp3-preview/febfbf35bb6449278b16a9975778e4f04f8def7d?cid=2b0486564f764dbd81dbb0ee6fb55bed
-Sat Oct 19 2019 13:10:17 GMT-0400 (Eastern Daylight Time)
+Sat Oct 19 2019 21:26:51 GMT-0400 (Eastern Daylight Time)
  ------------------| SPOTIFY |--------------------
 
  * Song: Ask for Love,
  * Album: Ask for Love,
  * Artist: Joey Pecoraro,
  * Song-Preview: https://p.scdn.co/mp3-preview/da41a77605c97b27f46061b67e9c922dbdaae916?cid=2b0486564f764dbd81dbb0ee6fb55bed
-Sat Oct 19 2019 13:10:17 GMT-0400 (Eastern Daylight Time)
+Sat Oct 19 2019 21:26:51 GMT-0400 (Eastern Daylight Time)
  ------------------| SPOTIFY |--------------------
 
  * Song: All Love,
  * Album: What More Could You Ask for?,
  * Artist: Futuristic,
  * Song-Preview: https://p.scdn.co/mp3-preview/cb7625a75d3dee5a711afa388b26fd08d66b876a?cid=2b0486564f764dbd81dbb0ee6fb55bed
-Sat Oct 19 2019 13:10:17 GMT-0400 (Eastern Daylight Time)
+Sat Oct 19 2019 21:26:51 GMT-0400 (Eastern Daylight Time)
  ------------------| SPOTIFY |--------------------
 
  * Song: All I Ask Of You,
  * Album: For The Love Of Music,
  * Artist: George Davidson,
  * Song-Preview: https://p.scdn.co/mp3-preview/db5cb3ab1f14f60b0e1e7a1bc37cacc3b22cbbdd?cid=2b0486564f764dbd81dbb0ee6fb55bed
-Sat Oct 19 2019 13:10:17 GMT-0400 (Eastern Daylight Time)
+Sat Oct 19 2019 21:26:51 GMT-0400 (Eastern Daylight Time)
  ------------------| SPOTIFY |--------------------
 
  * Song: (I Prithee) Do Not Ask for Love - 2006 Remaster Alternate Mix,
  * Album: The Monkees (Deluxe Edition),
  * Artist: The Monkees,
  * Song-Preview: https://p.scdn.co/mp3-preview/3c1656b66c383a8edd9cdd0ea4154221375bc64b?cid=2b0486564f764dbd81dbb0ee6fb55bed
-Sat Oct 19 2019 13:10:17 GMT-0400 (Eastern Daylight Time)
+Sat Oct 19 2019 21:26:52 GMT-0400 (Eastern Daylight Time)
  ------------------| SPOTIFY |--------------------
 
  * Song: (I Prithee) Do Not Ask for Love - 2006 Remaster,
  * Album: More Of The Monkees (Deluxe Edition),
  * Artist: The Monkees,
  * Song-Preview: https://p.scdn.co/mp3-preview/0ddc2cb49aa225a908264a77a6abe29e4ecca648?cid=2b0486564f764dbd81dbb0ee6fb55bed
-Sat Oct 19 2019 13:10:28 GMT-0400 (Eastern Daylight Time)
+Sat Oct 19 2019 21:29:53 GMT-0400 (Eastern Daylight Time)
  ------------------| SPOTIFY |--------------------
 
- * Song: Lucifer's Eyes,
- * Album: Heaven EP,
- * Artist: T.O.L.D.,
- * Song-Preview: https://p.scdn.co/mp3-preview/5a972c3f5f0f53958b0d2042760a76c8a899ed33?cid=2b0486564f764dbd81dbb0ee6fb55bed
-Sat Oct 19 2019 13:10:28 GMT-0400 (Eastern Daylight Time)
+ * Song: Ask for Love,
+ * Album: Ask for Love,
+ * Artist: Joey Pecoraro,
+ * Song-Preview: https://p.scdn.co/mp3-preview/da41a77605c97b27f46061b67e9c922dbdaae916?cid=2b0486564f764dbd81dbb0ee6fb55bed
+Sat Oct 19 2019 21:29:53 GMT-0400 (Eastern Daylight Time)
  ------------------| SPOTIFY |--------------------
 
- * Song: Lucifer's Eyes,
- * Album: It's Not About the Witches,
- * Artist: T.O.L.D.,
- * Song-Preview: https://p.scdn.co/mp3-preview/3056cd208180825373f265a87550113bc16db2d2?cid=2b0486564f764dbd81dbb0ee6fb55bed
-Sat Oct 19 2019 13:10:28 GMT-0400 (Eastern Daylight Time)
+ * Song: (I Prithee) Do Not Ask for Love - 2006 Remaster,
+ * Album: More Of The Monkees (Deluxe Edition),
+ * Artist: The Monkees,
+ * Song-Preview: https://p.scdn.co/mp3-preview/0ddc2cb49aa225a908264a77a6abe29e4ecca648?cid=2b0486564f764dbd81dbb0ee6fb55bed
+Sat Oct 19 2019 21:29:53 GMT-0400 (Eastern Daylight Time)
  ------------------| SPOTIFY |--------------------
 
- * Song: Lucifer's Eyes,
- * Album: Fortnox,
- * Artist: Fortnox,
- * Song-Preview: https://p.scdn.co/mp3-preview/99274ad20cff537152b5c0cd7fd921b26e3ef853?cid=2b0486564f764dbd81dbb0ee6fb55bed
-Sat Oct 19 2019 13:10:28 GMT-0400 (Eastern Daylight Time)
+ * Song: All Love,
+ * Album: What More Could You Ask for?,
+ * Artist: Futuristic,
+ * Song-Preview: https://p.scdn.co/mp3-preview/cb7625a75d3dee5a711afa388b26fd08d66b876a?cid=2b0486564f764dbd81dbb0ee6fb55bed
+Sat Oct 19 2019 21:29:53 GMT-0400 (Eastern Daylight Time)
  ------------------| SPOTIFY |--------------------
 
- * Song: Lucifer's Eyes,
- * Album: Secret Cult,
- * Artist: Veligore,
- * Song-Preview: https://p.scdn.co/mp3-preview/8660e28fe12cda2178fda4789ade241dc6203c4d?cid=2b0486564f764dbd81dbb0ee6fb55bed
-Sat Oct 19 2019 13:10:28 GMT-0400 (Eastern Daylight Time)
+ * Song: All I Ask Of You,
+ * Album: For The Love Of Music,
+ * Artist: George Davidson,
+ * Song-Preview: https://p.scdn.co/mp3-preview/db5cb3ab1f14f60b0e1e7a1bc37cacc3b22cbbdd?cid=2b0486564f764dbd81dbb0ee6fb55bed
+Sat Oct 19 2019 21:29:53 GMT-0400 (Eastern Daylight Time)
  ------------------| SPOTIFY |--------------------
 
- * Song: Through Lucifer's Eyes,
- * Album: Embracing Satan,
- * Artist: Northern Terror,
- * Song-Preview: https://p.scdn.co/mp3-preview/49fbfa03dfccf1efb6a169820695acccd2b42e6b?cid=2b0486564f764dbd81dbb0ee6fb55bed
+ * Song: (I Prithee) Do Not Ask for Love - 2006 Remaster Alternate Mix,
+ * Album: The Monkees (Deluxe Edition),
+ * Artist: The Monkees,
+ * Song-Preview: https://p.scdn.co/mp3-preview/3c1656b66c383a8edd9cdd0ea4154221375bc64b?cid=2b0486564f764dbd81dbb0ee6fb55bed
+Sat Oct 19 2019 21:31:26 GMT-0400 (Eastern Daylight Time)
+ ------------------| SPOTIFY |--------------------
+
+ * Song: Ask for Love,
+ * Album: Ask for Love,
+ * Artist: Joey Pecoraro,
+ * Song-Preview: https://p.scdn.co/mp3-preview/da41a77605c97b27f46061b67e9c922dbdaae916?cid=2b0486564f764dbd81dbb0ee6fb55bed
+Sat Oct 19 2019 21:31:26 GMT-0400 (Eastern Daylight Time)
+ ------------------| SPOTIFY |--------------------
+
+ * Song: All Love,
+ * Album: What More Could You Ask for?,
+ * Artist: Futuristic,
+ * Song-Preview: https://p.scdn.co/mp3-preview/cb7625a75d3dee5a711afa388b26fd08d66b876a?cid=2b0486564f764dbd81dbb0ee6fb55bed
+Sat Oct 19 2019 21:31:26 GMT-0400 (Eastern Daylight Time)
+ ------------------| SPOTIFY |--------------------
+
+ * Song: All I Ask Of You,
+ * Album: For The Love Of Music,
+ * Artist: George Davidson,
+ * Song-Preview: https://p.scdn.co/mp3-preview/db5cb3ab1f14f60b0e1e7a1bc37cacc3b22cbbdd?cid=2b0486564f764dbd81dbb0ee6fb55bed
+Sat Oct 19 2019 21:31:26 GMT-0400 (Eastern Daylight Time)
+ ------------------| SPOTIFY |--------------------
+
+ * Song: (I Prithee) Do Not Ask for Love - 2006 Remaster Alternate Mix,
+ * Album: The Monkees (Deluxe Edition),
+ * Artist: The Monkees,
+ * Song-Preview: https://p.scdn.co/mp3-preview/3c1656b66c383a8edd9cdd0ea4154221375bc64b?cid=2b0486564f764dbd81dbb0ee6fb55bed
+Sat Oct 19 2019 21:31:26 GMT-0400 (Eastern Daylight Time)
+ ------------------| SPOTIFY |--------------------
+
+ * Song: (I Prithee) Do Not Ask for Love - 2006 Remaster,
+ * Album: More Of The Monkees (Deluxe Edition),
+ * Artist: The Monkees,
+ * Song-Preview: https://p.scdn.co/mp3-preview/0ddc2cb49aa225a908264a77a6abe29e4ecca648?cid=2b0486564f764dbd81dbb0ee6fb55bed
+Sat Oct 19 2019 21:32:38 GMT-0400 (Eastern Daylight Time)
+ ------------------| SPOTIFY |--------------------
+
+ * Song: Ask for Love,
+ * Album: Ask for Love,
+ * Artist: Joey Pecoraro,
+ * Song-Preview: https://p.scdn.co/mp3-preview/da41a77605c97b27f46061b67e9c922dbdaae916?cid=2b0486564f764dbd81dbb0ee6fb55bed
+Sat Oct 19 2019 21:32:38 GMT-0400 (Eastern Daylight Time)
+ ------------------| SPOTIFY |--------------------
+
+ * Song: All Love,
+ * Album: What More Could You Ask for?,
+ * Artist: Futuristic,
+ * Song-Preview: https://p.scdn.co/mp3-preview/cb7625a75d3dee5a711afa388b26fd08d66b876a?cid=2b0486564f764dbd81dbb0ee6fb55bed
+Sat Oct 19 2019 21:32:38 GMT-0400 (Eastern Daylight Time)
+ ------------------| SPOTIFY |--------------------
+
+ * Song: All I Ask Of You,
+ * Album: For The Love Of Music,
+ * Artist: George Davidson,
+ * Song-Preview: https://p.scdn.co/mp3-preview/db5cb3ab1f14f60b0e1e7a1bc37cacc3b22cbbdd?cid=2b0486564f764dbd81dbb0ee6fb55bed
+Sat Oct 19 2019 21:32:38 GMT-0400 (Eastern Daylight Time)
+ ------------------| SPOTIFY |--------------------
+
+ * Song: (I Prithee) Do Not Ask for Love - 2006 Remaster Alternate Mix,
+ * Album: The Monkees (Deluxe Edition),
+ * Artist: The Monkees,
+ * Song-Preview: https://p.scdn.co/mp3-preview/3c1656b66c383a8edd9cdd0ea4154221375bc64b?cid=2b0486564f764dbd81dbb0ee6fb55bed
+Sat Oct 19 2019 21:32:38 GMT-0400 (Eastern Daylight Time)
+ ------------------| SPOTIFY |--------------------
+
+ * Song: (I Prithee) Do Not Ask for Love - 2006 Remaster,
+ * Album: More Of The Monkees (Deluxe Edition),
+ * Artist: The Monkees,
+ * Song-Preview: https://p.scdn.co/mp3-preview/0ddc2cb49aa225a908264a77a6abe29e4ecca648?cid=2b0486564f764dbd81dbb0ee6fb55bed
