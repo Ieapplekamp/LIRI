@@ -17,7 +17,7 @@ LIRI is a node.js application that searches Spotify, OMDB, and the Bands in Town
 ## Spotify Search
 
 ```
-node liri.js spotify-this-song <SongName>
+node liri.js spotify-this-song <Song Name>
 ```
 
 Renders the first 5 results related to the song searched from the Spotify API using the ```node-spotify-api``` npm; Artists names can usually be included. Each result should return the name of the song, album, artist, and a link to preview the song will be provided, if there is one.
