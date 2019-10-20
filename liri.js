@@ -67,17 +67,17 @@ function spotifySearch(search) {
         } else {
             
             for (var i = 0; i < 5; i++){
-
+                
                 var results = data.tracks.items[i];
                 
                 if (results.preview_url === null) {
 
                     var dataRevisedColor = [
                         white("\n ------------------| SPOTIFY |--------------------") + "\r\n" +
-                        blue('* Song: ') + pink(results.name) +  
+                        blue('* Song: ') + pink(results.album.name) +  
                         blue('\n * Album: ') + pink(results.album.name) + 
-                        blue('\n * Artist: ') + pink(results.album.artists[i].name) + 
-                        blue('\n * Song-Preview: ') +  pink('Cannot display a prievew at this moment') + "\r\n" + 
+                        blue('\n * Artist: ') + pink(results.album.artists[0].name) + 
+                        blue('\n * Song-Preview: ') +  pink('This artist is too much of a diva to share their work :(') + "\r\n" + 
                         chalk.white.dim("\n ------------------| SPOTIFY |--------------------\n")
                     ]
 
@@ -86,8 +86,8 @@ function spotifySearch(search) {
                         "\n ------------------| SPOTIFY |--------------------\n" + 
                         '\n * Song: ' + results.name +
                         '\n * Album: ' + results.album.name + 
-                        '\n * Artist: ' + results.album.artists[i].name + 
-                        '\n * Song-Preview: Cannot display a preview at this moment' + "\r\n" + 
+                        '\n * Artist: ' + results.album.artists[0].name + 
+                        '\n * Song-Preview: This artist is too much of a diva to share their work :(' + "\r\n" + 
                         "\n -------------------------------------------------\n"
                     ]
 
